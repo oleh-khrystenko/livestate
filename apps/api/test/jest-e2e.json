@@ -1,0 +1,14 @@
+{
+    "moduleFileExtensions": ["js", "json", "ts", "tsx"],
+    "rootDir": ".",
+    "testEnvironment": "node",
+    "testRegex": ".e2e-spec.ts$",
+    "transform": {
+        "^.+\\.(t|j)sx?$": "ts-jest"
+    },
+    "globalSetup": "<rootDir>/global-setup.ts",
+    "setupFiles": ["<rootDir>/../src/test-setup.ts"],
+    "moduleNameMapper": {
+        "^@cyanship/types$": "<rootDir>/../../../packages/types/src/index.ts"
+    }
+}
