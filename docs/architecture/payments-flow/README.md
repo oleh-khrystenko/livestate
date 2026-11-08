@@ -1,6 +1,6 @@
 # Payments — Опис реалізації платіжної системи
 
-> Повний опис реалізованої платіжної системи CyanShip: Stripe subscriptions, one-off пакети executions, webhook обробка, billing UI.
+> Повний опис реалізованої платіжної системи ядра CyanShip (буде видалена в livestate): Stripe subscriptions, one-off пакети executions, webhook обробка, billing UI.
 
 ## Зміст
 

@@ -6,7 +6,7 @@
 
 ## Покриття
 
-Unit, integration (e2e) та frontend unit тести для повного покриття авторизаційного потоку CyanShip.
+Unit, integration (e2e) та frontend unit тести для повного покриття авторизаційного потоку livestate.
 
 **Scope:**
 

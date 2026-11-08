@@ -1,6 +1,6 @@
 # Architecture
 
-Опис реалізованих підсистем CyanShip.
+Опис реалізованих підсистем ядра livestate (успадковано від CyanShip). Загальна архітектура проєкту: [../architecture.md](../architecture.md).
 
 ## Документи
 
