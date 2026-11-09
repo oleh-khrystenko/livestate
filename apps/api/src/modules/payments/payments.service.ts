@@ -18,7 +18,7 @@ import {
     SUBSCRIPTION_STATUS,
     type BillingWebhookEvent,
     type CreateCheckoutSession,
-} from '@cyanship/types';
+} from '@livestate/types';
 import { ENV } from '../../config/env';
 import {
     PAYMENT_PROVIDER,

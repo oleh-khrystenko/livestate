@@ -11,7 +11,7 @@ import {
     SubmitBriefSchema,
     BRIEF_BUDGET,
     BRIEF_DEADLINE,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import UiButton from '@/shared/ui/UiButton';
 import UiInput from '@/shared/ui/UiInput';

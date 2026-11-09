@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 import { BadRequestException } from '@nestjs/common';
 
 import { BriefController } from './brief.controller';

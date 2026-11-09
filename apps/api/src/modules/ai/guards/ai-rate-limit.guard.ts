@@ -8,7 +8,7 @@ import {
     Logger,
 } from '@nestjs/common';
 import { Request } from 'express';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 
 import { RedisCounterService } from '../../../common/services/redis-counter.service';
 

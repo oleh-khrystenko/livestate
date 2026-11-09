@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { AI_CHAT_FREE_LIMIT, AI_CHAT_BONUS_AMOUNT } from '@cyanship/types';
+import { AI_CHAT_FREE_LIMIT, AI_CHAT_BONUS_AMOUNT } from '@livestate/types';
 
 import UiLink from '@/shared/ui/UiLink';
 import UiSectionCard from '@/shared/ui/UiSectionCard';

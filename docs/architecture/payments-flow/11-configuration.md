@@ -27,4 +27,4 @@
 
 Файл: `apps/api/src/test-setup.ts`
 
-Встановлює placeholder Stripe env vars (`sk_test_placeholder`, `whsec_test_placeholder`) для тестів. Без цього fail-fast policy крашить тести при імпорті `env.ts`. Прапорці оплати в test-setup відсутні — це константи, тести за потреби мокають `@cyanship/types`.
+Встановлює placeholder Stripe env vars (`sk_test_placeholder`, `whsec_test_placeholder`) для тестів. Без цього fail-fast policy крашить тести при імпорті `env.ts`. Прапорці оплати в test-setup відсутні — це константи, тести за потреби мокають `@livestate/types`.

@@ -7,7 +7,7 @@ import {
     BRIEF_DEADLINE_LABEL,
     type BriefBudget,
     type BriefDeadline,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { EmailService } from '../../email/email.service';
 import { UsersService } from '../../users/users.service';

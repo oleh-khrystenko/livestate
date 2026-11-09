@@ -1,5 +1,5 @@
 import { Hr, Text } from '@react-email/components';
-import { EMAIL_COLORS } from '@cyanship/types';
+import { EMAIL_COLORS } from '@livestate/types';
 
 import type { BriefConfirmationTranslations } from '../i18n/types';
 import { BaseLayout } from './layouts/base';

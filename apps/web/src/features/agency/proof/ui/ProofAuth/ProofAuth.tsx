@@ -9,8 +9,8 @@ import { Mail } from 'lucide-react';
 import { AxiosError } from 'axios';
 import { toast } from 'sonner';
 import { z } from 'zod';
-import { CheckEmailSchema, getFullName } from '@cyanship/types';
-import type { MagicLinkPurpose } from '@cyanship/types';
+import { CheckEmailSchema, getFullName } from '@livestate/types';
+import type { MagicLinkPurpose } from '@livestate/types';
 
 import UiButton from '@/shared/ui/UiButton';
 import UiCheckbox from '@/shared/ui/UiCheckbox';

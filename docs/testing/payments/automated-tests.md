@@ -6,7 +6,7 @@
 
 ## Покриття
 
-Unit та e2e тести для повного покриття платіжної підсистеми ядра (успадковано від CyanShip).
+Unit та e2e тести для повного покриття платіжної підсистеми ядра.
 
 **Scope:**
 
@@ -97,14 +97,14 @@ Unit та e2e тести для повного покриття платіжно
 - Юзер без підписки → викликає `paymentProvider.createCheckoutSession` з правильними аргументами (userId, userEmail, paymentType, planCode, priceId і executions з `CatalogService`, successUrl, cancelUrl з локаллю юзера) → повертає `{ checkoutUrl }`
 - Юзер з активною підпискою (`hasActiveSubscription: true`) → кидає `ConflictException` з `code: RESPONSE_CODE.ALREADY_SUBSCRIBED`
 - Юзер не знайдений → кидає `BadRequestException`
-- `PAYMENTS_SUBSCRIPTION_ENABLED = false` (константа мокається через `jest.mock('@cyanship/types')`) → кидає `BadRequestException` з `code: RESPONSE_CODE.PAYMENT_TYPE_DISABLED`
+- `PAYMENTS_SUBSCRIPTION_ENABLED = false` (константа мокається через `jest.mock('@livestate/types')`) → кидає `BadRequestException` з `code: RESPONSE_CODE.PAYMENT_TYPE_DISABLED`
 - Юзер з existing `providerCustomerId` → передає його в `createCheckoutSession` input
 
 #### One-off checkout (`createCheckoutSession` з `paymentType: 'one_off'`)
 
 - Юзер + valid packCode ('basic') → викликає `paymentProvider.createCheckoutSession` з priceId і executions з `CatalogService` (`planCode` = packCode) → повертає `{ checkoutUrl }`
 - Invalid packCode → кидає `BadRequestException('Invalid packCode')`
-- `PAYMENTS_ONE_OFF_ENABLED = false` (константа мокається через `jest.mock('@cyanship/types')`) → кидає `BadRequestException` з `code: RESPONSE_CODE.PAYMENT_TYPE_DISABLED`
+- `PAYMENTS_ONE_OFF_ENABLED = false` (константа мокається через `jest.mock('@livestate/types')`) → кидає `BadRequestException` з `code: RESPONSE_CODE.PAYMENT_TYPE_DISABLED`
 
 #### Portal (`createPortalSession`)
 

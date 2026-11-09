@@ -1,8 +1,8 @@
 'use client';
 
 import { Camera } from 'lucide-react';
-import type { UserProfile } from '@cyanship/types';
-import { getFullName, getInitials } from '@cyanship/types';
+import type { UserProfile } from '@livestate/types';
+import { getFullName, getInitials } from '@livestate/types';
 
 import { UiAvatarButton } from '@/shared/ui/UiAvatarButton';
 

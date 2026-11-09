@@ -4,7 +4,7 @@ import { fetchMetadata } from '@/shared/seo/metadata';
 import { MetaProps, PageParams } from '@/shared/types/settings';
 import UiLink from '@/shared/ui/UiLink';
 import { SiteFooter } from '@/widgets/agency/site-footer';
-import { ACCOUNT_DELETION_GRACE_DAYS } from '@cyanship/types';
+import { ACCOUNT_DELETION_GRACE_DAYS } from '@livestate/types';
 
 export async function generateMetadata(props: MetaProps): Promise<Metadata> {
     const { locale } = await props.params;
@@ -68,11 +68,11 @@ export default async function PrivacyPage({ params }: PageParams) {
                                     never will.
                                 </p>
                                 <p className="mt-4">
-                                    This policy applies to the CyanShip website
+                                    This policy applies to the LiveState website
                                     (cyanship.com) and all services built and
                                     maintained by Oleh Khrystenko, sole
                                     proprietor (FOP), operating under the
-                                    &quot;CyanShip&quot; brand (referred to as
+                                    &quot;LiveState&quot; brand (referred to as
                                     &quot;Company&quot;, &quot;we&quot;,
                                     &quot;our&quot;, or &quot;us&quot;
                                     throughout).
@@ -102,7 +102,7 @@ export default async function PrivacyPage({ params }: PageParams) {
 
                                 <h3>Identity and Access</h3>
                                 <p className="mt-3">
-                                    When you sign up for a CyanShip product, we
+                                    When you sign up for a LiveState product, we
                                     ask for identifying information such as your
                                     name and email address. That&apos;s so you
                                     can personalize your account, and we can send
@@ -246,7 +246,7 @@ export default async function PrivacyPage({ params }: PageParams) {
                                 </p>
 
                                 <p className="mt-6">
-                                    If CyanShip is acquired by or merges with
+                                    If LiveState is acquired by or merges with
                                     another company, we&apos;ll notify you well
                                     before any of your personal information is
                                     transferred or becomes subject to a different

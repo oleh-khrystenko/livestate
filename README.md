@@ -1,8 +1,8 @@
-# CyanShip
+# LiveState
 
 Production-ready SaaS-бойлерплейт та одночасно живий лендінг агенції — все, що потрібно для швидкого запуску web-додатка: auth, payments, i18n, theming та модульна архітектура з коробки.
 
-При старті нового проекту робиться форк репозиторію, видаляється модуль agency, і розробка клієнтського продукту починається поверх готового ядра. Детальніше: [docs/vision/product.md](docs/vision/product.md), порядок видалення agency: [docs/conventions/modular-boundaries.md](docs/conventions/modular-boundaries.md).
+При старті нового проекту робиться форк репозиторію, видаляється модуль agency, і розробка клієнтського продукту починається поверх готового ядра. Концепція LiveState: [docs/README.md](docs/README.md). Порядок видалення agency: [docs/conventions/modular-boundaries.md](docs/conventions/modular-boundaries.md).
 
 ---
 
@@ -20,7 +20,7 @@ Turborepo-монорепозиторій з жорстким розділенн�
 ## Структура проєкту
 
 ```
-cyanship/
+livestate/
 ├── apps/
 │   ├── web/                  # Frontend (Next.js 16, React 19)
 │   │   └── src/
@@ -43,7 +43,7 @@ cyanship/
 │           │   └── storage/          # Skeleton
 │           └── common/               # Guards, filters, decorators, Redis provider
 ├── packages/
-│   └── types/                # @cyanship/types — Zod-схеми, типи, контракти
+│   └── types/                # @livestate/types — Zod-схеми, типи, контракти
 │       └── src/
 │           ├── index.ts              # Core exports
 │           └── agency.ts             # Agency exports (окремий entry point)
@@ -175,13 +175,13 @@ docker compose up --build -d
 | `pnpm --filter api test:e2e`              | API E2E тести               |
 | `pnpm --filter api test:cov`              | API coverage                |
 | `pnpm --filter web test`                  | Web unit тести              |
-| `pnpm --filter @cyanship/types build`    | Build shared types          |
+| `pnpm --filter @livestate/types build`    | Build shared types          |
 
 ---
 
 ## Документація
 
-- [Vision & Product](docs/vision/product.md) — опис проекту, бізнес-модель, позиціонування (видаляється при форку)
+- [Концепція LiveState](docs/README.md): бачення, принципи, управління, перша версія
 - [Conventions](docs/conventions/README.md) — правила та конвенції для розробки
 - [Architecture](docs/architecture/README.md) — опис реалізованих підсистем (auth, payments)
 - [Testing](docs/testing/) — тестові плани (auth, payments)

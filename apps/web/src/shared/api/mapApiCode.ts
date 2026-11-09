@@ -4,7 +4,7 @@ import {
     RESPONSE_CODE_TYPE,
     RESPONSE_TYPE,
     type ResponseCode,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 /**
  * Returns an i18n key for the given API response code.

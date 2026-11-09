@@ -18,7 +18,7 @@ import {
     PAYMENTS_ONE_OFF_ENABLED,
     PAYMENTS_SUBSCRIPTION_ENABLED,
     type PaymentsCatalog,
-} from '@cyanship/types';
+} from '@livestate/types';
 import { JwtActiveGuard } from '../../common/guards/jwt-active.guard';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { SkipOnboarding } from '../../common/decorators/skip-onboarding.decorator';

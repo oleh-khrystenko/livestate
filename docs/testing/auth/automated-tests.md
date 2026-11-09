@@ -6,7 +6,7 @@
 
 ## Покриття
 
-Unit, integration (e2e) та frontend unit тести для повного покриття авторизаційного потоку livestate.
+Unit, integration (e2e) та frontend unit тести для повного покриття авторизаційного потоку LiveState.
 
 **Scope:**
 
@@ -81,7 +81,7 @@ Unit, integration (e2e) та frontend unit тести для повного по
 
 **Метод `sendDeletionConfirmationEmail`:**
 - Виклик `emailService.sendDeletionConfirmation` з правильними аргументами (email, дата = now + grace period, lang)
-- Перевір обчислення дати: `now + ACCOUNT_DELETION_GRACE_DAYS` днів (константа з `@cyanship/types`, не env)
+- Перевір обчислення дати: `now + ACCOUNT_DELETION_GRACE_DAYS` днів (константа з `@livestate/types`, не env)
 - Fallback мови до 'uk' якщо не передано
 
 **Метод `loginWithPassword`:**
@@ -267,7 +267,7 @@ createMagicLinkToken(email, purpose) → зберігає token в mocked Redis,
 4. Налаштуй path aliases (`@/*` → `./src/*`)
 5. Налаштуй мокування Next.js modules (`next/navigation`, `next/headers`, `next-intl`)
 
-**ВАЖЛИВО:** Перевір `apps/web/tsconfig.json` та `apps/web/next.config.ts` для правильних path aliases. Переконайся, що jest конфіг резолвить `@cyanship/types` правильно (може потребувати `moduleNameMapper`).
+**ВАЖЛИВО:** Перевір `apps/web/tsconfig.json` та `apps/web/next.config.ts` для правильних path aliases. Переконайся, що jest конфіг резолвить `@livestate/types` правильно (може потребувати `moduleNameMapper`).
 
 ### 4.2 `apps/web/src/shared/api/client.spec.ts`
 
@@ -324,7 +324,7 @@ createMagicLinkToken(email, purpose) → зберігає token в mocked Redis,
 | Error code без module | `getApiMessageKey('UNAUTHORIZED')` | `'errors.generic.unauthorized'` |
 | Невідомий code без module | `getApiMessageKey('UNKNOWN_CODE')` | `'errors.generic.unknown_code'` |
 
-**Мокування:** Потрібно мокнути `RESPONSE_CODE_TYPE` з `@cyanship/types`.
+**Мокування:** Потрібно мокнути `RESPONSE_CODE_TYPE` з `@livestate/types`.
 
 ### 4.5 `apps/web/src/entities/user/authStore.spec.ts`
 

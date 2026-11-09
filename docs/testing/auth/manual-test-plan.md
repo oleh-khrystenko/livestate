@@ -96,7 +96,7 @@
 - [ ] Network: `POST /api/auth/check-email` → `200`, `{ hasPassword: false, isNewUser: false }`
 - [ ] Network: `POST /api/auth/magic-link/send` → `200` (purpose: `login`)
 - [ ] UI: "Перевірте пошту" з email юзера + "Інший email"
-- [ ] Email отримано з subject "Вхід до CyanShip" (uk) або "Sign in to CyanShip" (en)
+- [ ] Email отримано з subject "Вхід до LiveState" (uk) або "Sign in to LiveState" (en)
 
 ---
 
@@ -113,7 +113,7 @@
 - [ ] Network: `POST /api/auth/check-email` → `200`, `{ hasPassword: false, isNewUser: true }`
 - [ ] Network: `POST /api/auth/magic-link/send` → `200` (purpose: `register`)
 - [ ] UI: "Перевірте пошту" (ідентичний Сценарію B)
-- [ ] Email отримано з subject "Ласкаво просимо до CyanShip" (uk) або "Welcome to CyanShip" (en)
+- [ ] Email отримано з subject "Ласкаво просимо до LiveState" (uk) або "Welcome to LiveState" (en)
 
 ---
 
@@ -736,16 +736,16 @@
 2. Зареєструвати нового юзера (preferredLang=en)
 
 **Expected:**
-- [ ] UK: subject "Ласкаво просимо до CyanShip", CTA "Завершити реєстрацію"
-- [ ] EN: subject "Welcome to CyanShip", CTA "Complete Registration"
-- [ ] HTML: CyanShip брендинг, лінк з token, "Посилання дійсне 15 хвилин"
+- [ ] UK: subject "Ласкаво просимо до LiveState", CTA "Завершити реєстрацію"
+- [ ] EN: subject "Welcome to LiveState", CTA "Complete Registration"
+- [ ] HTML: LiveState брендинг, лінк з token, "Посилання дійсне 15 хвилин"
 
 ---
 
 ### Тест K2: Login email (UK + EN)
 
-- [ ] UK: subject "Вхід до CyanShip", CTA "Увійти"
-- [ ] EN: subject "Sign in to CyanShip", CTA "Sign In"
+- [ ] UK: subject "Вхід до LiveState", CTA "Увійти"
+- [ ] EN: subject "Sign in to LiveState", CTA "Sign In"
 
 ---
 

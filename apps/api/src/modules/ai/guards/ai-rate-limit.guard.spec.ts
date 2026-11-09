@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { Request } from 'express';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 
 import { RedisCounterService } from '../../../common/services/redis-counter.service';
 import { AI_CHAT_IP_LIMIT, AiRateLimitGuard } from './ai-rate-limit.guard';

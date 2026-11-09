@@ -1,4 +1,4 @@
-import type { ChatMessageItem, AiChatSSEEvent } from '@cyanship/types';
+import type { ChatMessageItem, AiChatSSEEvent } from '@livestate/types';
 
 import { apiClient, getAccessToken, refreshSession } from './client';
 import { API_BASE_PATH } from '@/shared/config';

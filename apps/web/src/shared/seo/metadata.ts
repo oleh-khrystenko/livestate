@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import { MetaProps } from '@/shared/types/settings';
-import { LANG } from '@cyanship/types';
+import { LANG } from '@livestate/types';
 import { ENV } from '@/shared/config';
 
 const BASE_URL = ENV.NEXT_PUBLIC_BASE_URL;
@@ -26,7 +26,7 @@ export async function fetchMetadata({
     // because that is the language the copy is written in first; and it names
     // the current offer, because a stale default is exactly how a retired one
     // creeps back in front of a customer.
-    let title = 'CyanShip – From Idea to Revenue in 4 Weeks';
+    let title = 'LiveState – From Idea to Revenue in 4 Weeks';
     let description =
         'B2B platform development with AI, payments, and auth built in. Next.js + NestJS. Fast time-to-market, zero agency overhead.';
 
@@ -93,7 +93,7 @@ export async function fetchMetadata({
             title,
             description,
             url: canonicalUrl,
-            siteName: 'CyanShip',
+            siteName: 'LiveState',
             locale: locale === 'uk' ? 'uk_UA' : 'en_US',
             type: 'website',
             // JPEG, not PNG: the banner is a photograph with no transparency,

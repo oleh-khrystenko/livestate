@@ -27,7 +27,7 @@ import { PaymentsModule } from '../src/modules/payments/payments.module';
 import { User, UserDocument } from '../src/modules/users/schemas/user.schema';
 import { EmailService } from '../src/modules/email/email.service';
 import { CatalogService } from '../src/modules/payments/catalog.service';
-import { CURRENT_TERMS_VERSION } from '@cyanship/types';
+import { CURRENT_TERMS_VERSION } from '@livestate/types';
 import { createStatefulRedisMock } from './utils/redis.mock';
 import { createCatalogServiceMock } from './utils/catalog.mock';
 import { listenOnLoopback, LOOPBACK_IP } from './utils/listen';

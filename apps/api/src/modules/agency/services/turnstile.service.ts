@@ -1,5 +1,5 @@
 import { Injectable, Logger, BadRequestException } from '@nestjs/common';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 
 import { ENV } from '../../../config/env';
 

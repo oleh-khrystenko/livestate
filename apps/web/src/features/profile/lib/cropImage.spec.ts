@@ -1,4 +1,4 @@
-import { AVATAR } from '@cyanship/types';
+import { AVATAR } from '@livestate/types';
 
 import { cropImage } from './cropImage';
 

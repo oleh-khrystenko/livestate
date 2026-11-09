@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { getModelToken } from '@nestjs/mongoose';
-import { ACCOUNT_DELETION_GRACE_DAYS } from '@cyanship/types';
+import { ACCOUNT_DELETION_GRACE_DAYS } from '@livestate/types';
 
 import { AuthService } from '../auth/auth.service';
 import { EmailService } from '../email/email.service';

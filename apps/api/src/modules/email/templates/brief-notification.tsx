@@ -1,5 +1,5 @@
 import { Text, Hr } from '@react-email/components';
-import { EMAIL_COLORS } from '@cyanship/types';
+import { EMAIL_COLORS } from '@livestate/types';
 
 import { BaseLayout } from './layouts/base';
 

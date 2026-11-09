@@ -2,7 +2,7 @@ import { Injectable, Logger } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { Model } from 'mongoose';
-import { ACCOUNT_DELETION_GRACE_DAYS } from '@cyanship/types';
+import { ACCOUNT_DELETION_GRACE_DAYS } from '@livestate/types';
 
 import { AuthService } from '../auth/auth.service';
 import { EmailService } from '../email/email.service';

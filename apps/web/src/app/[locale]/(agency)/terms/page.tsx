@@ -4,7 +4,7 @@ import { fetchMetadata } from '@/shared/seo/metadata';
 import { MetaProps, PageParams } from '@/shared/types/settings';
 import UiLink from '@/shared/ui/UiLink';
 import { SiteFooter } from '@/widgets/agency/site-footer';
-import { ACCOUNT_DELETION_GRACE_DAYS } from '@cyanship/types';
+import { ACCOUNT_DELETION_GRACE_DAYS } from '@livestate/types';
 
 export async function generateMetadata(props: MetaProps): Promise<Metadata> {
     const { locale } = await props.params;
@@ -46,7 +46,7 @@ export default async function TermsPage({ params }: PageParams) {
                             </h1>
                             <p className="mt-4 text-lg leading-relaxed text-muted-foreground">
                                 All the terms that you agree to when you sign up
-                                for a CyanShip product or service.
+                                for a LiveState product or service.
                             </p>
                             <p className="mt-4 text-sm text-muted-foreground">
                                 Last updated: March 13, 2026
@@ -59,9 +59,9 @@ export default async function TermsPage({ params }: PageParams) {
                             {/* ------------------------------------------------ */}
                             <section>
                                 <p>
-                                    Thank you for using CyanShip! These Terms of
+                                    Thank you for using LiveState! These Terms of
                                     Service (&quot;Terms&quot;) govern your use
-                                    of the CyanShip website (cyanship.com) and
+                                    of the LiveState website (cyanship.com) and
                                     all related products and services.
                                 </p>
                                 <p className="mt-4">
@@ -70,11 +70,11 @@ export default async function TermsPage({ params }: PageParams) {
                                     &quot;us&quot; in this document, we are
                                     referring to Oleh Khrystenko, sole
                                     proprietor (FOP), operating under the
-                                    &quot;CyanShip&quot; brand.
+                                    &quot;LiveState&quot; brand.
                                 </p>
                                 <p className="mt-4">
                                     When we say &quot;Services&quot;, we mean the
-                                    CyanShip website and any product created and
+                                    LiveState website and any product created and
                                     maintained by us, whether delivered within a
                                     web browser, desktop application, or another
                                     format.
@@ -281,7 +281,7 @@ export default async function TermsPage({ params }: PageParams) {
                                     </li>
                                     <li>
                                         When you use our Services, you entrust us
-                                        with your data. You agree that CyanShip
+                                        with your data. You agree that LiveState
                                         may process your data as described in our{' '}
                                         <a href="privacy">Privacy Policy</a>{' '}
                                         and for no other purpose.

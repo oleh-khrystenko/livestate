@@ -1,4 +1,4 @@
-# CyanShip
+# LiveState
 
 > SaaS-ядро та живий сайт агенції для швидкого запуску web-продуктів з готовими auth, billing, AI chat, i18n і media storage.
 
@@ -45,7 +45,7 @@ docs/
 ├── architecture/        # auth and payments
 ├── conventions/         # source-of-truth rules
 ├── testing/             # test plans
-└── vision/              # agency product context
+└── *.md               # концепція LiveState: бачення, принципи, управління, перша версія
 ```
 
 ## Domain Model
@@ -202,7 +202,7 @@ Feature flags і продуктові ліміти не є env: спільні �
 - `pnpm --filter api test:e2e` — API e2e.
 - `pnpm --filter api test:cov` — API coverage.
 - `pnpm --filter web test` — web unit tests.
-- `pnpm --filter @cyanship/types build` — shared package.
+- `pnpm --filter @livestate/types build` — shared package.
 - `docker compose -f docker-compose.dev.yml up --build` — local stack.
 - `docker compose -f docker-compose.dev.yml down` — зупинити local stack.
 

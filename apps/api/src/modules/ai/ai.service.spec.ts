@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { getModelToken } from '@nestjs/mongoose';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 
 import { User } from '../users/schemas/user.schema';
 import { UsersService } from '../users/users.service';

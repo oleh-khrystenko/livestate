@@ -9,6 +9,6 @@
     "globalSetup": "<rootDir>/global-setup.ts",
     "setupFiles": ["<rootDir>/../src/test-setup.ts"],
     "moduleNameMapper": {
-        "^@cyanship/types$": "<rootDir>/../../../packages/types/src/index.ts"
+        "^@livestate/types$": "<rootDir>/../../../packages/types/src/index.ts"
     }
 }

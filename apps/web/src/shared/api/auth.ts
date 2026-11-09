@@ -6,7 +6,7 @@ import {
     type UpdateProfileDto,
     type UserProfile,
     type VerifyMagicLinkResponse,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { getTimezone } from '@/shared/lib';
 

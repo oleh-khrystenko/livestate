@@ -19,7 +19,7 @@ import {
     PAYMENTS_ONE_OFF_ENABLED,
     PAYMENTS_SUBSCRIPTION_ENABLED,
     type PaymentsCatalog,
-} from '@cyanship/types';
+} from '@livestate/types';
 import UiButton from '@/shared/ui/UiButton';
 import UiLink from '@/shared/ui/UiLink';
 import UiPageContainer from '@/shared/ui/UiPageContainer';

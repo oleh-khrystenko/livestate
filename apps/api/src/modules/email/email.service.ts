@@ -9,7 +9,7 @@ import {
     MAGIC_LINK_PURPOSE,
     RESPONSE_CODE,
     type MagicLinkPurpose,
-} from '@cyanship/types';
+} from '@livestate/types';
 import { Resend } from 'resend';
 
 import { ENV } from '../../config/env';

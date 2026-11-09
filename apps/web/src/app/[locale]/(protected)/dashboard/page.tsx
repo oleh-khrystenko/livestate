@@ -6,7 +6,7 @@ import {
     getFullName,
     getInitials,
     PAYMENTS_SUBSCRIPTION_ENABLED,
-} from '@cyanship/types';
+} from '@livestate/types';
 import { useAuthStore } from '@/entities/user';
 import { toIntlLocale } from '@/shared/lib';
 import { UiAvatar } from '@/shared/ui/UiAvatar';

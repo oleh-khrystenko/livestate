@@ -4,7 +4,7 @@ import {
     BRIEF_STATUS,
     BRIEF_BUDGET_LABEL,
     BRIEF_DEADLINE_LABEL,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { BriefService } from './brief.service';
 import { Brief } from '../schemas/brief.schema';

@@ -2,7 +2,7 @@ import { type ReactNode } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { toast } from 'sonner';
 import { useRouter, usePathname } from 'next/navigation';
-import { getFullName, getInitials } from '@cyanship/types';
+import { getFullName, getInitials } from '@livestate/types';
 import { signOut, useAuthStore } from '@/entities/user';
 
 interface UserMenuItem {

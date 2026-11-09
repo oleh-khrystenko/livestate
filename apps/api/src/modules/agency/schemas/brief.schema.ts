@@ -5,7 +5,7 @@ import {
     type BriefStatus,
     type BriefBudget,
     type BriefDeadline,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 @Schema({ timestamps: true, collection: 'briefs' })
 export class Brief extends Document {

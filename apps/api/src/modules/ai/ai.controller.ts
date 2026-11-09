@@ -17,7 +17,7 @@ import {
     type AiChatErrorEvent,
     type AiChatTokenEvent,
     type ChatMessageItem,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { JwtActiveGuard } from '../../common/guards/jwt-active.guard';
 import { CurrentUser } from '../../common/decorators/current-user.decorator';

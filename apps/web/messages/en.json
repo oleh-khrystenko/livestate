@@ -4,17 +4,17 @@
     },
     "legal": {
         "privacy": {
-            "title": "Privacy Policy – CyanShip",
-            "description": "How CyanShip handles your data: what we collect, why, and your rights."
+            "title": "Privacy Policy – LiveState",
+            "description": "How LiveState handles your data: what we collect, why, and your rights."
         },
         "terms": {
-            "title": "Terms of Service – CyanShip",
-            "description": "Terms and conditions for using CyanShip products and services."
+            "title": "Terms of Service – LiveState",
+            "description": "Terms and conditions for using LiveState products and services."
         }
     },
     "home_page": {
         "head": {
-            "title": "Your website, rebuilt — CyanShip",
+            "title": "Your website, rebuilt — LiveState",
             "description": "Your first screen decides whether a customer calls you or closes the tab. I rebuild the site of a business that already has one. From $1,000."
         },
         "nav": {
@@ -131,7 +131,7 @@
     },
     "landing_page": {
         "head": {
-            "title": "CyanShip – From Idea to Revenue in 4 Weeks",
+            "title": "LiveState – From Idea to Revenue in 4 Weeks",
             "description": "B2B platform development with AI, payments, and auth built in. Next.js + NestJS. Fast time-to-market, zero agency overhead."
         },
         "nav": {
@@ -155,7 +155,7 @@
             "label": "Approach",
             "heading": "Skip the Boilerplate. Focus on Business.",
             "paragraph_1": "Most startup budgets are burned on rebuilding authentication, payment integrations, and now — AI features. I've already built all of it.",
-            "paragraph_2": "With CyanShip — my pre-built core — we bypass the setup phase and start building your custom logic on day one.",
+            "paragraph_2": "With LiveState — my pre-built core — we bypass the setup phase and start building your custom logic on day one.",
             "feature_architecture_title": "Zero Tech Debt",
             "feature_architecture_description": "Built on industry standards. When you hire an in-house team, they can take over instantly without rewriting legacy code.",
             "feature_typed_title": "Built to Scale",
@@ -166,7 +166,7 @@
         "dogfooding": {
             "label": "Proof",
             "heading": "You Are Looking at the Code Right Now",
-            "description": "I don't just sell this architecture; I run my business on it. This site — including its AI chat, Stripe billing, and auth — is built on the exact same CyanShip core your product will use."
+            "description": "I don't just sell this architecture; I run my business on it. This site — including its AI chat, Stripe billing, and auth — is built on the exact same LiveState core your product will use."
         },
         "demo_video": {
             "label": "Demo",
@@ -215,7 +215,7 @@
             "faq_5_q": "What happens after the MVP is launched?",
             "faq_5_a": "You have full control. You can take the clean, documented Next.js/NestJS codebase to an in-house team, or retain me for ongoing feature development via a monthly retainer or fixed hourly rate.",
             "faq_6_q": "Does the MVP include AI features?",
-            "faq_6_a": "Yes. The CyanShip core ships with a production-ready AI chat module — streaming responses, per-message billing, rate limiting, and abuse protection. You can use it as-is for customer support or adapt it to your domain. No extra cost."
+            "faq_6_a": "Yes. The LiveState core ships with a production-ready AI chat module — streaming responses, per-message billing, rate limiting, and abuse protection. You can use it as-is for customer support or adapt it to your domain. No extra cost."
         },
         "footer_cta": {
             "label": "Contact",
@@ -308,11 +308,11 @@
         "email": "cyanshiphq@gmail.com",
         "social_linkedin": "LinkedIn",
         "social_github": "GitHub",
-        "copyright": "© {year} CyanShip. Built by Oleh Khrystenko."
+        "copyright": "© {year} LiveState. Built by Oleh Khrystenko."
     },
     "auth_page": {
         "signin": {
-            "heading": "Sign in to CyanShip",
+            "heading": "Sign in to LiveState",
             "subheading": "Launch your SaaS faster with production-ready auth, payments, and more",
             "email_label": "Email",
             "email_placeholder": "your@email.com",

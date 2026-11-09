@@ -21,7 +21,7 @@
         "baseUrl": ".",
         "paths": {
             "@/*": ["./src/*"],
-            "@cyanship/types": ["../../packages/types/src/index.ts"]
+            "@livestate/types": ["../../packages/types/src/index.ts"]
         }
     },
     "include": [

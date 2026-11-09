@@ -1,4 +1,4 @@
-import { type Lang, DEFAULT_LANG } from '@cyanship/types';
+import { type Lang, DEFAULT_LANG } from '@livestate/types';
 
 import type { EmailTranslations } from './types';
 import { en } from './en';

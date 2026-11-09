@@ -8,7 +8,7 @@ import {
     SUBSCRIPTION_STATUS,
     type BillingWebhookEvent,
     type ExecutionPackCode,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { PaymentsService } from './payments.service';
 import { CatalogService } from './catalog.service';
@@ -26,14 +26,14 @@ jest.mock('../../config/env', () => ({
 
 // Feature-flag tests flip the toggles at runtime, so the constants module is
 // mocked with writable copies — the real exports are plain consts.
-jest.mock('@cyanship/types', () => ({
-    ...jest.requireActual<Record<string, unknown>>('@cyanship/types'),
+jest.mock('@livestate/types', () => ({
+    ...jest.requireActual<Record<string, unknown>>('@livestate/types'),
     PAYMENTS_SUBSCRIPTION_ENABLED: true,
     PAYMENTS_ONE_OFF_ENABLED: true,
 }));
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports -- jest.mock() requires runtime require()
-const typesModule = require('@cyanship/types') as {
+const typesModule = require('@livestate/types') as {
     PAYMENTS_SUBSCRIPTION_ENABLED: boolean;
     PAYMENTS_ONE_OFF_ENABLED: boolean;
 };

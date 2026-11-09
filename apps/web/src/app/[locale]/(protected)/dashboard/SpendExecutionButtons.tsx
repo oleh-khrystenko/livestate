@@ -7,7 +7,7 @@ import {
     EXECUTION_ACTION,
     EXECUTION_ACTION_COST,
     type SpendableAction,
-} from '@cyanship/types';
+} from '@livestate/types';
 import {
     spendExecutions,
     getApiMessageKey,

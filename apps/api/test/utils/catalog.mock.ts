@@ -1,4 +1,4 @@
-import type { PaymentsCatalog } from '@cyanship/types';
+import type { PaymentsCatalog } from '@livestate/types';
 
 /**
  * Deterministic stand-in for the Stripe-backed catalog.

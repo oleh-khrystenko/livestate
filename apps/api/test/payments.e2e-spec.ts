@@ -15,7 +15,7 @@ import {
     BILLING_EVENT_TYPE,
     SUBSCRIPTION_STATUS,
     type BillingWebhookEvent,
-} from '@cyanship/types';
+} from '@livestate/types';
 
 import { AllExceptionsFilter } from '../src/common/filters/all-exceptions.filter';
 import { OnboardingInterceptor } from '../src/common/interceptors/onboarding.interceptor';
@@ -49,14 +49,14 @@ import { listenOnLoopback } from './utils/listen';
 // Payment toggles are plain constants in the shared package. Feature-flag tests
 // flip them at runtime, so the module is mocked with writable copies of the
 // real exports; beforeEach restores both toggles.
-jest.mock('@cyanship/types', () => ({
-    ...jest.requireActual<Record<string, unknown>>('@cyanship/types'),
+jest.mock('@livestate/types', () => ({
+    ...jest.requireActual<Record<string, unknown>>('@livestate/types'),
     PAYMENTS_SUBSCRIPTION_ENABLED: true,
     PAYMENTS_ONE_OFF_ENABLED: true,
 }));
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports -- jest.mock() requires runtime require()
-const typesModule = require('@cyanship/types') as {
+const typesModule = require('@livestate/types') as {
     PAYMENTS_SUBSCRIPTION_ENABLED: boolean;
     PAYMENTS_ONE_OFF_ENABLED: boolean;
 };

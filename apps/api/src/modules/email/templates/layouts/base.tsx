@@ -8,7 +8,7 @@ import {
     Section,
     Text,
 } from '@react-email/components';
-import { EMAIL_COLORS } from '@cyanship/types';
+import { EMAIL_COLORS } from '@livestate/types';
 
 interface BaseLayoutProps {
     lang: string;
@@ -23,7 +23,7 @@ export function BaseLayout({ lang, children }: BaseLayoutProps) {
                 <Container style={container}>
                     <Section style={header}>
                         <Link href="https://cyanship.com" style={brandLink}>
-                            <Text style={brand}>CyanShip</Text>
+                            <Text style={brand}>LiveState</Text>
                         </Link>
                     </Section>
                     {children}

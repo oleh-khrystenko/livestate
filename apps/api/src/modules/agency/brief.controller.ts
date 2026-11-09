@@ -1,5 +1,5 @@
 import { Body, Controller, Ip, Post, UseGuards } from '@nestjs/common';
-import { RESPONSE_CODE } from '@cyanship/types';
+import { RESPONSE_CODE } from '@livestate/types';
 
 import { CurrentUser } from '../../common/decorators/current-user.decorator';
 import { SkipOnboarding } from '../../common/decorators/skip-onboarding.decorator';

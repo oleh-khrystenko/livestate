@@ -10,7 +10,7 @@ import {
     EXECUTION_ACTION_COST,
     type ExecutionTransactionItem,
     type SpendableAction,
-} from '@cyanship/types';
+} from '@livestate/types';
 import {
     spendExecutions,
     getExecutionTransactions,
